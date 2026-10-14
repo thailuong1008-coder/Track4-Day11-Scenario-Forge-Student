@@ -1,0 +1,36 @@
+{
+ "format": "avsim-studio/1",
+ "params": {},
+ "policy": {},
+ "hazards": [
+  {
+   "x": 80.0,
+   "lane": "E2",
+   "d": 0.0,
+   "v": 4.0,
+   "swerve": 2.8,
+   "swDur": 2.2,
+   "t0": 0.0,
+   "trig": 18.0,
+   "type": "bike"
+  }
+ ],
+ "ego": "planner",
+ "space": {
+  "h0_x": [
+   60.0,
+   100.0
+  ],
+  "h0_swerve": [
+   2.2,
+   2.8
+  ],
+  "h0_trig": [
+   14.0,
+   24.0
+  ]
+ },
+ "exposure": 0.03,
+ "why": "Xe dap di o lan E2 lang sang trai 2.2-2.8 m (gia toc ngang 2.2-2.85 m/s2 <= 3.0 m/s2 hop le) de ne ho ga truoc vach di bo (x=60-100m) khi xe ta toi gan (trig 14-24m). V=4.0 m/s. Tan suat 0.03 lan/chuyen theo thong ke xung dot phuong tien hai banh do thi.",
+ "world": "town"
+}
